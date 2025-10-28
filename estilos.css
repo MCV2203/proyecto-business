@@ -1,0 +1,30 @@
+body {
+  background-color: #ffffff; /*color de fondo de la web*/
+  color: #687280; /*gris claro a todos los textos*/
+  font-family: "Lexend Deca", sans-serif; /*tipografia de letra*/
+  font-size: 16px; /*tamaño de fuente*/
+}
+
+header {
+  display: flex; /*herramientas flexibles*/
+  justify-content: center; /*todo centrado*/
+}
+
+.container {
+  width: 1440px; /*ancho del container*/
+  border: 1px solid rgb(255, 0, 0); /*color y ancho del contenedor*/
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.flex {
+  display: flex; /*herramientas flexibles*/
+}
+
+.between {
+  justify-content: space-between; /*distribuye elementos alrededor*/
+}
+
+.items-center {
+  align-items: center; /*alinear elementos al centro*/
+}
