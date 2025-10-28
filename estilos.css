@@ -1,44 +1,54 @@
 body {
-  background-color: #ffffff; /*color de fondo de la web*/
-  color: #687280; /*gris claro a todos los textos*/
-  font-family: "Lexend Deca", sans-serif; /*tipografia de letra*/
-  font-size: 16px; /*tamaño de fuente*/
+  background-color: #ffffff;
+  color: #687280;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 16px;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
 header {
-  display: flex; /*herramientas flexibles*/
-  justify-content: center; /*todo centrado*/
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-  width: 1440px; /*ancho del container*/
-  border: 1px solid rgb(255, 0, 0); /*color y ancho del contenedor*/
+  width: 1820px;
+  border: 1px solid rgb(255, 0, 0);
   padding-left: 100px;
   padding-right: 100px;
 }
 
 .flex {
-  display: flex; /*herramientas flexibles*/
+  display: flex;
 }
 
 .between {
-  justify-content: space-between; /*distribuye elementos alrededor*/
+  justify-content: space-between;
 }
 
 .items-center {
-  align-items: center; /*alinear elementos al centro*/
+  align-items: center;
 }
 
 .menu {
   display: flex;
-  gap: 30px; /*espacio entre elementos*/
+  gap: 30px;
 }
 
 .menu li {
-  list-style: none; /*quitar puntos de los li*/
+  list-style: none;
 }
 
 .menu a {
-  text-decoration: none; /*quitar subrayado de enlaces*/
-  color: #687280; /*color de los enlaces*/
+  text-decoration: none;
+  color: #687280;
+}
+
+.izquierda {
+  width: 15%;
+}
+
+.derecha {
+  width: 85%;
 }
