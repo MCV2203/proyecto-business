@@ -28,3 +28,17 @@ header {
 .items-center {
   align-items: center; /*alinear elementos al centro*/
 }
+
+.menu {
+  display: flex;
+  gap: 30px; /*espacio entre elementos*/
+}
+
+.menu li {
+  list-style: none; /*quitar puntos de los li*/
+}
+
+.menu a {
+  text-decoration: none; /*quitar subrayado de enlaces*/
+  color: #687280; /*color de los enlaces*/
+}
