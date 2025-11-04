@@ -1,5 +1,5 @@
 body {
-  background-color: #2361a8;
+  background-color: #FFFFFF;
   color: #687280;
   font-family: "Lexend Deca", sans-serif;
   font-size: 16px;
@@ -11,6 +11,13 @@ body {
 header {
   display: flex;
   justify-content: center;
+  height: 100px;
+  background-color: rgb(10, 10, 99);
+  color: white;
+}
+
+header {
+  color: white;
 }
 
 .margen {
@@ -19,9 +26,8 @@ header {
 }
 
 .container {
-  width: 1600px;
+  width: 1890px;
   border: 1px solid rgb(255, 0, 0);
-  background-color: white;
 }
 
 .flex {
@@ -39,6 +45,7 @@ header {
 .menu {
   display: flex;
   gap: 30px;
+  margin-top: 40px;
 }
 
 .menu li {
@@ -83,4 +90,9 @@ header {
   border-right: #687280 1px solid;
   height: 15px;
   margin-left: 10px;
+}
+
+main{
+  background-image: url("images/empresario.jpg");
+  background-size: cover;
 }
