@@ -1,5 +1,5 @@
 body {
-  background-color: #FFFFFF;
+  background-color: rgb(4, 26, 84);
   color: #687280;
   font-family: "Lexend Deca", sans-serif;
   font-size: 16px;
@@ -12,12 +12,16 @@ header {
   display: flex;
   justify-content: center;
   height: 100px;
-  background-color: rgb(10, 10, 99);
+  background-color: rgb(48, 87, 170);
   color: white;
 }
 
-header {
-  color: white;
+.header1 {
+  background-color: rgb(4, 26, 84);
+}
+
+.header2 {
+  background-color: white;
 }
 
 .margen {
@@ -25,9 +29,12 @@ header {
   margin-left: 200px;
 }
 
+.margen3 {
+  margin-left: 30px;
+}
+
 .container {
   width: 1890px;
-  border: 1px solid rgb(255, 0, 0);
 }
 
 .flex {
@@ -72,7 +79,15 @@ header {
 
 .izquierda1 {
   width: 50%;
-  border-right: 1px solid black;
+  border-right: 1px solid #687280;
+  justify-content: center;
+  display: flex;
+  padding-right: 20px;
+  font-size: 30px;
+}
+
+.izquierda2 {
+  width: 50%;
   justify-content: center;
   display: flex;
   padding-right: 20px;
@@ -95,4 +110,36 @@ header {
 main{
   background-image: url("images/empresario.jpg");
   background-size: cover;
+  width: 1920px;
+  height: 800px;
+}
+
+main button {
+  font-size: 2em;
+  border-radius: 5px;
+}
+
+.blanco {
+  color: white;
+}
+
+.azul {
+  color: rgb(4, 26, 84);
+}
+
+.texto1 {
+  font-size: 30px;
+}
+
+.texto2 {
+  font-size: 70px;
+  padding: 30px;
+}
+
+.margen-superior {
+  margin-top: 200px;
+}
+
+.margen-lado {
+  margin-left: 100px;
 }
