@@ -4,6 +4,8 @@ body {
   font-family: "Lexend Deca", sans-serif;
   font-size: 16px;
   display: flex;
+  justify-content: center;
+  width: 100%;
   flex-direction: column;
   align-items: center;
 }
@@ -11,16 +13,23 @@ body {
 header {
   display: flex;
   justify-content: center;
-  height: 100px;
+  width: 100%;
   background-color: rgb(48, 87, 170);
   color: white;
+  flex-direction: column;
 }
 
 .header1 {
-  background-color: rgb(4, 26, 84);
+  background-color: rgb(1, 17, 48);
+  height: 70px;
 }
 
 .header2 {
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 100px;
   background-color: white;
 }
 
@@ -34,7 +43,7 @@ header {
 }
 
 .container {
-  width: 1890px;
+  width: 1920px;
 }
 
 .flex {
@@ -74,7 +83,8 @@ header {
 
 .abajo {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  margin: 20px 300px 20px 400px;
 }
 
 .izquierda1 {
@@ -104,19 +114,25 @@ header {
 .linea {
   border-right: #687280 1px solid;
   height: 15px;
-  margin-left: 10px;
+  padding-right: 30px;
+  margin-bottom: 20px;
 }
 
-main{
+.fondo{
   background-image: url("images/empresario.jpg");
   background-size: cover;
-  width: 1920px;
+  width: 100%;
   height: 800px;
 }
 
-main button {
-  font-size: 2em;
+button {
+  font-size: 1em;
   border-radius: 5px;
+  padding: 15px;
+  margin-top: 30px;
+  border: 0;
+  font-weight: bold;
+  color: rgb(4, 26, 84);
 }
 
 .blanco {
@@ -128,7 +144,7 @@ main button {
 }
 
 .texto1 {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 .texto2 {
@@ -136,10 +152,30 @@ main button {
   padding: 30px;
 }
 
+.texto3 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
 .margen-superior {
-  margin-top: 200px;
+  margin-top: 250px;
 }
 
 .margen-lado {
   margin-left: 100px;
+}
+
+.imagen {
+  width: 20px;
+  height: 20px;
+}
+
+.imagen2 {
+  width: 20px;
+  height: 20px;
+}
+
+.separacion {
+  margin-left: 60px;
 }
