@@ -8,13 +8,15 @@ body {
   width: 100%;
   flex-direction: column;
   align-items: center;
+  width: 1900px;
+  padding: 0px;
 }
 
 header {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: rgb(48, 87, 170);
+  background-color: rgb(255, 255, 255);
   color: white;
   flex-direction: column;
 }
@@ -25,12 +27,12 @@ header {
 }
 
 .header2 {
-   display: flex;
-  justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  padding: 0 50px;
   height: 100px;
   background-color: white;
+  padding: 0px 180px
 }
 
 .margen {
@@ -38,12 +40,17 @@ header {
   margin-left: 200px;
 }
 
+.margen2 {
+  margin-right: 100px;
+}
+
 .margen3 {
-  margin-left: 30px;
+  margin-right: 10px;
+  margin-top: 25px;
 }
 
 .container {
-  width: 1920px;
+  width: 1900px;
 }
 
 .flex {
@@ -51,7 +58,7 @@ header {
 }
 
 .between {
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .items-center {
@@ -60,7 +67,7 @@ header {
 
 .menu {
   display: flex;
-  gap: 30px;
+  gap: 40px;
   margin-top: 40px;
 }
 
@@ -83,8 +90,9 @@ header {
 
 .abajo {
   display: flex;
-  justify-content: space-around;
-  margin: 20px 300px 20px 400px;
+  justify-content: center;
+  width: 1900px;
+  word-wrap: break-word;
 }
 
 .izquierda1 {
@@ -92,7 +100,7 @@ header {
   border-right: 1px solid #687280;
   justify-content: center;
   display: flex;
-  padding-right: 20px;
+  padding-right: 30px;
   font-size: 30px;
 }
 
@@ -109,6 +117,7 @@ header {
   display: flex;
   justify-content: center;
   padding: 20px;
+  margin-top: 10px;
 }
 
 .linea {
@@ -118,7 +127,7 @@ header {
   margin-bottom: 20px;
 }
 
-.fondo{
+.fondo {
   background-image: url("images/empresario.jpg");
   background-size: cover;
   width: 100%;
@@ -133,10 +142,12 @@ button {
   border: 0;
   font-weight: bold;
   color: rgb(4, 26, 84);
+  margin-left: 100px;
 }
 
 .blanco {
   color: white;
+  font-size: 30px;
 }
 
 .azul {
@@ -145,6 +156,7 @@ button {
 
 .texto1 {
   font-size: 20px;
+  padding-left: 200px;
 }
 
 .texto2 {
@@ -156,18 +168,23 @@ button {
   font-size: 70px;
   font-weight: bold;
   margin-top: 10px;
+  padding-left: 200px;
 }
 
 .margen-superior {
   margin-top: 250px;
+  margin-bottom: 20px;
 }
 
 .margen-lado {
   margin-left: 100px;
 }
 
+.margen-lado2 {
+  margin-left: 310px;
+}
+
 .imagen {
-  width: 20px;
   height: 20px;
 }
 
@@ -178,4 +195,24 @@ button {
 
 .separacion {
   margin-left: 60px;
+}
+
+.derecha-redes {
+  gap: 20px;
+}
+
+.separacion2 {
+  margin-right: 10px;
+}
+
+.ancho {
+  width: 500px;
+}
+
+.margen-inferior {
+  padding-left: 150px;
+}
+
+.margen-boton {
+  margin-left: 100px;
 }
